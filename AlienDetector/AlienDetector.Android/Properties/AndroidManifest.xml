@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="AlienDetector.AlienDetector" android:installLocation="auto">
+	<uses-sdk android:minSdkVersion="15" />
+	<application android:label="AlienDetector.Android"></application>
+	<provider android:name="android.support.v4.content.FileProvider" android:authorities="AlienDetector.fileprovider" android:exported="false" android:grantUriPermissions="true">
+		<meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/file_paths"></meta-data>
+	</provider>
+</manifest>

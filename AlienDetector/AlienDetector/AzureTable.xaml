@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="AlienDetector.AzureTable" BackgroundImage="alien.jpg">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="Center" Opacity="50" BackgroundColor="CadetBlue">
+            <Label Text="WELCOME TO ALIEN DETECTOR. Use this app to determine if someone you know might be an ALIEN! Swipe left to begin." 
+               VerticalOptions="Center" HorizontalOptions="Center" HorizontalTextAlignment="Center"
+               FontSize="Medium" TextColor="White" Margin="10"/>
+            <Label Text="Created by Mousheen Khan" 
+                   VerticalOptions="End"
+                   HorizontalOptions="Center"
+                   FontSize="Micro" 
+                   TextColor="White"
+                   Margin="10"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
